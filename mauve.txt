@@ -1,1 +1,48 @@
-welcome to githubb
+In Java, `next()` and `nextInt()` are methods of the `Scanner` class, used to read input from the user, but they serve different purposes.
+
+### 1. `next()`:
+- **Purpose**: It reads a single token (or word) from the input.
+- **Usage**: When you call `next()`, it reads the next piece of input that is separated by whitespace (spaces, tabs, or newlines).
+- **Returns**: It returns a `String` that represents the token read.
+  
+  **Example**:
+  ```java
+  Scanner scanner = new Scanner(System.in);
+  String word = scanner.next();
+  System.out.println("You entered: " + word);
+  ```
+
+  If the user enters `Hello World`, `next()` will only capture `Hello` (up to the first whitespace).
+
+### 2. `nextInt()`:
+- **Purpose**: It reads the next token as an integer.
+- **Usage**: When you call `nextInt()`, it reads the next token from the input and attempts to parse it as an integer (`int`).
+- **Returns**: It returns an `int` value.
+
+  **Example**:
+  ```java
+  Scanner scanner = new Scanner(System.in);
+  int number = scanner.nextInt();
+  System.out.println("You entered the number: " + number);
+  ```
+
+  If the user enters `42`, `nextInt()` will return `42`.
+
+### Key Differences:
+- **Input Handling**: `next()` reads a token as a string, while `nextInt()` reads a token and attempts to convert it into an integer.
+- **Type**: `next()` returns a `String`, while `nextInt()` returns an `int`.
+- **Whitespace**: `next()` stops reading at the first whitespace character, whereas `nextInt()` will skip over any leading whitespace characters and stop reading at the next non-digit character (which may throw an exception if the input is not a valid integer).
+
+### Example of Handling Invalid Input:
+```java
+Scanner scanner = new Scanner(System.in);
+System.out.println("Enter an integer:");
+if (scanner.hasNextInt()) {
+    int number = scanner.nextInt();
+    System.out.println("You entered: " + number);
+} else {
+    System.out.println("That's not a valid integer!");
+}
+```
+
+This is useful for validating input when using `nextInt()`.
