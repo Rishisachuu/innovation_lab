@@ -20,13 +20,11 @@ class Employee{
     public int getid(){
         return id;
     }
-public class Data{
     public static void main(String[] args){
         Employee emp=new Employee(107,100000);
         System.out.println("Current Salary:"+ emp.getSalary());
         emp.setSalary(60000);
         System.out.println("Updated Salary:"+ emp.getSalary());
         emp.setSalary(25000);
-        }
     }
 }
