@@ -1,90 +1,43 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-    <title>protfolio</title>
-    <style>
-        ul{
-            display: flex;
-            list-style-type: none;
-            gap: 50px;
-            font-size: x-large;
-            background-color: blanchedalmond;
-        }
-        #ex1{
-            height: 300px;
-            width: auto;
-            border: 7px solid;
-
-        }
-        #ex2{
-            margin-left: 400px;
-            margin-top: -220px;
-            text-shadow: darkblue;
-        }
-        h3{
-            font-size: xx-large;
-        }
-        p{
-            font-size: x-large;
-        }
-        body{
-            background: url();
-        }
-        table,th,td{
-            border: 3px solid;
-            padding: 20px;
-            margin-left: 300px;
-        }
-
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-               <a href="http://"></a> <li>home</li>
-               <a href="#art1"></a> <li>skill</li>
-              <a href="#container"></a>  <li>about me</li>
-               <a href="http://"></a> <li>education</li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
             </ul>
-        </nav>
-    </header>
-   
-    <section id="ex1">
-        <img src="/image.png" alt="" height="300px" width="300px">
-        <div id="ex2">
-            <h3>hi there</h3>
-            <p>i am here</p>
+          </div>
         </div>
-       
-    </section>
-    <article id="art 1">
-        <aside>
-            <div class="container">
-            <h3 align="center">Education detail</h3>
-            <div style="margin: left 200px;"></div>
-            <img src="c:\Users\TEMP.KGISLEDU.002\AppData\Roaming\Microsoft\Windows\Network Shortcuts\ooty.png" alt="" height="">
-            <span>Higher secondary school</span>
-            </div>
-            <div style="">
-        <table>
-            <caption>skill-set</caption>
-            <tr>
-                <th>front end</th>
-                <th>back end</th>
-                <th>database</th>
-            </tr>
-            <tr>
-                <td>html</td>
-                <td>java</td>
-                <td>sql</td>
-            </tr>
-            <tr>
-                <td>css</td>
-                <td>python</td>
-                <td>mongodp</td>
-            </tr>
-        </table>
-    </article>
+      </nav>
 </body>
 </html>
