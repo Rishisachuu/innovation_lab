@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<body>
+    <!-- <div class="container border border-1 border-danger">1</div>  -->
+    <!-- <div class="container-fluid border border-3 border-primary">2</div> --> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar scroll</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="row" >
+        <div class="col-6 border border-3 border-success">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illum error delectus tenetur molestias corrupti et iusto nulla suscipit, eligendi sequi blanditiis. Aperiam minus fuga soluta! Architecto in porro quas?</p>
+        </div>
+        <div class="col-6 border border-3 border-success">
+            <button class="btn btn-secondary">Click Here </button>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images5.alphacoders.com/133/thumbbig-1331366.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ITACHI</h5>
+              <p class="card-text">Itachi Uchiha (うちは イタチ, Uchiha Itachi) is a character in the Naruto manga and anime series created by Masashi Kishimoto.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://images6.alphacoders.com/415/thumbbig-415519.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SASUKE</h5>
+              <p class="card-text">Sasuke Uchiha (Japanese: うちは サスケ, Hepburn: Uchiha Sasuke) (/ˈsɑːskeɪ/) is a fictional character in the Naruto manga and anime franchise created by Masashi Kishimoto.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.alphacoders.com/133/thumbbig-1337463.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">KAKASHI</h5>
+              <p class="card-text">Kakashi Hatake (Japanese: はたけ カカシ, Hepburn: Hatake Kakashi) is a fictional character and one of the main protagonists in the Naruto manga and anime series created by Masashi Kishimoto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://images3.alphacoders.com/134/thumbbig-1342006.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NARUTO</h5>
+              <p class="card-text">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+      </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images5.alphacoders.com/133/thumbbig-1331366.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images6.alphacoders.com/415/thumbbig-415519.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.alphacoders.com/133/thumbbig-1337463.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <form>
+        <div class="container mt-5 bg-info">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="container -fluid border border-3 bg-info h-25">
+        <p>@ copy rightskgcas.com</p>
+      </div>
+    
+   
+</body>
+</html>
